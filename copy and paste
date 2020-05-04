@@ -1,0 +1,57 @@
+##Psuedo_code
+##bot for the beginner
+
+#####LINE 1######
+##short the library
+import pyautogui as pg
+import time
+##find the position
+##Start Point(x=3503, y=253)
+time.sleep(1)##wait for 1 sec
+start_point=(3503,253)
+pg.click(start_point)
+end_point =(3658,253)
+pg.dragTo(end_point)
+pg.hotkey('ctrl','c')
+target_point=(2605,251)
+pg.click(target_point)
+pg.hotkey('ctrl','v')
+pg.press('enter')
+
+#####LINE 2######
+##short the library
+import pyautogui as pg
+import time
+##find the position
+##Start Point(x=3503, y=253)
+time.sleep(1)##wait for 1 sec
+start_point=(3503,274) ##253+21
+pg.click(start_point)
+end_point =(3658,253)
+pg.dragTo(end_point)
+pg.hotkey('ctrl','c')
+target_point=(2605,251)
+pg.click(target_point)
+pg.press('down')
+pg.hotkey('ctrl','v')
+pg.press('enter')
+
+#####LINE 3######
+##short the library
+import pyautogui as pg
+import time
+##find the position
+##Start Point(x=3503, y=253)
+time.sleep(3)##wait for 1 sec
+start_point=(3503,295)
+pg.click(start_point)
+end_point =(3658,253)
+pg.dragTo(end_point)
+pg.hotkey('ctrl','c')
+target_point=(2605,251)
+pg.click(target_point)
+pg.press('down')
+pg.press('down')
+pg.hotkey('ctrl','v')
+pg.press('enter')
+
