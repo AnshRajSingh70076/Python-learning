@@ -1,3 +1,3 @@
 import streamlit as st
-
-st.text("Hello Tassanee")
+st.title('Hello Tassanee')
+st.text("This is my first data app on Streamlit!")
